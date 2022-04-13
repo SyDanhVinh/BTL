@@ -86,7 +86,7 @@ body {
 
 .banner-left, .banner-right {
     width: 50%;
-  
+
 }
 
 .banner-left {
@@ -113,4 +113,7 @@ body {
 .footer-link a:hover{
     color: #000;
     background-color: #fffab9;
+}
+.img-banner img{
+    width: 50;
 }

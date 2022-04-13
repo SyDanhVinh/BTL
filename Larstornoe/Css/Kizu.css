@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -40,16 +42,18 @@ body {
 
 .content {
     width: 100%;
+    padding: 0 45px;
 }
 
 .img-banner{
-    width: 90%;
+    height: 700px;
     overflow: hidden;
     margin-top: 34px;
+    width: 1390px;
 }
 
-.content {
-    padding: 0 45px;
+.img-banner img {
+    width: inherit;
 }
 
 .content-text {
@@ -86,7 +90,6 @@ body {
 
 .banner-left, .banner-right {
     width: 50%;
-    height: 453px;
 }
 
 .banner-left {
