@@ -6,9 +6,9 @@
 }
 
 html{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
-
 
 
 .clear{
@@ -31,9 +31,16 @@ html{
     font-size: 16px;
 }
 /* header */
+
+.navbar{
+    background: #fff;
+    margin: 16px 0px 16px;
+
+}
 .navbar-brand{
     font-weight: 500;
     font-size: 16px;
+    margin-left: 45px;
 }
 
 .full-screen{
@@ -44,6 +51,7 @@ html{
 .navbar-light .navbar-nav .nav-link {
     /* margin-top: 10px; */
     color: #333333 !important;
+    margin-right: 45px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover{
@@ -70,6 +78,35 @@ html{
 }
 
 
+
+/* content */
+.img{
+    width: 120%;
+    height: auto;
+}
+.image-contents,
+.main-contents{
+    margin-left: 35px;
+    display: block;
+    padding: 55px;
+}
+.containers{
+    grid-template-columns: auto auto;
+    display: grid;
+    grid-gap: 45px;
+}
+
+.title-d{
+    font-weight: 500;
+    margin-bottom: -5px;
+}
+
+.font-m,
+.font-m:hover{
+    color: #000;
+    list-style: none;
+    text-decoration: none;
+}
 
 
 
